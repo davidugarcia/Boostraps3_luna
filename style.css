@@ -1,0 +1,199 @@
+/** Nav */
+
+.relativo{
+    position: relative;
+}
+
+.navbarimg{
+    position: absolute;
+    left: 120px;
+    top: 0px;
+}
+
+.navbarimg img{
+    height: 95px;
+}
+
+.nav a{
+    color: #16325c !important;
+    font-weight: bold;
+}
+
+/** Banner */
+.home-banner {
+    background-image: url(./img/Fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 570px;
+}
+
+/** Formulario */
+@font-face {
+    font-family: "titulo";
+    src: url(./img/Playball-Regular.ttf);
+}
+
+.title {
+    font-family: "titulo";
+}
+
+.margen{
+    margin-bottom: 20px;
+}
+
+.fondo{
+    background-color: #16325c;
+}
+
+.fondo h2{
+    color: azure;
+    padding-left: 15px;
+}
+
+.form-inline label{
+    color: azure;
+}
+
+.form-control{
+        width: 81% !important;
+}
+
+.form-control{
+    border-radius: 0px;
+}
+.ancho button{
+    width: 100%;
+}
+
+.btn{
+    border-radius: 0px;
+}
+
+@media (max-width: 1200px) {
+   .anchoo{
+        width: 77% !important;
+    }
+}
+
+
+/* Medium devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+    .anchoo{
+        width: 68% !important;
+    }
+ }
+
+ @media (max-width: 768px) {
+    /**Logo*/
+    .navbarimg img {
+        height: 64px;
+    }
+
+    .navbarimg {
+        left: 2px;
+        top: -3px;
+    }
+    /**Formulario*/
+    .anchoo{
+        width: 100% !important;
+    }
+
+    .ancho button{
+        margin-top: 25px;
+    }
+
+    /**Nav Footer*/
+    
+    .space_row .navbar-right{
+        float: none !important;
+        text-align: center;
+    }
+
+    .icono li{
+        display: inline !important;
+    }
+
+    .icono li a{
+        display: inline !important;
+    }
+ }
+
+/** Link */
+
+.link{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.link a{
+    text-decoration: underline;
+    color: #16325c;
+    font-weight: bold;
+}
+
+ /** Section */
+
+ .fondogris{
+     background-color: rgb(219, 219, 219);
+ }
+
+ .space_row{
+     margin-top: 20px;
+ }
+
+ .ajuste_textderecha{
+     max-width: 530px;
+     padding-top: 30px;
+     text-align: justify;
+ }
+
+.ajuste_textderecha h3{
+    color: #16325c;
+    font-weight: bold;
+} 
+
+ .ajuste_textizquierda{
+    max-width: 637px;
+    padding-top: 30px;
+    text-align: justify;
+}
+
+.ajuste_textizquierda h3{
+    color: #16325c;
+    font-weight: bold;
+} 
+
+/**Footer*/
+
+.icono{
+    font-size: 24px;
+}
+
+@media (min-width: 1540px) {
+    .fondogris .img{
+        height: 270px;
+        width: 555px;
+        float: right;
+    }
+
+    .ajuste_textizquierda{
+        height: 270px;
+        width: 555px;
+        float: right;
+    }
+
+    .fondogris .imgderecha{
+        height: 270px;
+        width: 555px;
+        float: left;
+    }
+
+    .ajuste_textderecha{
+        padding-top: 0px;
+    }
+
+    .ajuste_textizquierda{
+        padding-top: 0px;
+    }
+}
